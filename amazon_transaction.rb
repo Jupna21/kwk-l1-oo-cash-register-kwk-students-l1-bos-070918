@@ -6,8 +6,9 @@ class AmazonTransaction
     @total = 0
     @items = []
     @discount = discount
-    
   end
+  
+  @item << eggs
   
   def add_item(title,price)
     @total += price
