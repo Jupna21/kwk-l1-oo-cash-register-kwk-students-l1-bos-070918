@@ -9,7 +9,7 @@ class AmazonTransaction
   end
   
   def add_item(title,price,quantity = 1)
-    @total += price*quantity-discount
+    @total += price*quantity
     items << title
   end
   
