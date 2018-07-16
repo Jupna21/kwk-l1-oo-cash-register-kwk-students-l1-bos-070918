@@ -16,6 +16,9 @@ class AmazonTransaction
   def apply_discount
     @total -= @total*0.2
   end
+  
+  if apply_discount
+    puts "Success!"
     
 end
 
