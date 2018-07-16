@@ -14,4 +14,4 @@ class AmazonTransaction
   
   
 end
-items << "eggs"
+
